@@ -36,3 +36,61 @@ Create one system with multiple services for management all times of the employe
 
 Create one project for front end, this will call ESB project, that manager what domain do you nee call; one domain just access ESB, but ESB call all domains. If domain 1 need call other domain 2, it will call ESB, ESB will call Domain 2 that return to ESB will retorne Domain 1. Basically! Let's go.
 
+## Domains Objects:
+
+### Point-sheet:
+
+* Release
+* Point sheet
+
+### Enterprise:
+
+* Employer
+* Employer Contact Mail
+* Employer Contact Phone
+* Manager
+* Manager Contact Mail
+* Position
+* Company
+
+### Catalog:
+
+* Day of week
+* Type Contact Mail
+* Type Contact Phone
+
+### ESB:
+
+* List of employers
+* List of companies
+* List of positions
+* List of point sheets
+* List of releases of point sheets
+* Save new release
+* Save new point sheets
+* Update a release
+* Update a point sheets
+* Delete a release
+* Activate/Deactivate employers
+* Activate/Deactivate company
+* Activate/Deactivate type contact mail
+* Activate/Deactivate type contact phone
+* Reports (some, need defined)
+
+### UI:
+
+* Login employer/manager
+* Employer
+    * List your point sheet
+    * List realises for each point sheet
+    * Create your point sheet
+    * Update your point sheet
+    * Create realieses
+    * Update realises
+    * Delete realises
+* Manager <- Employer:
+    * List all point sheets for your company
+    * List all employers for your company
+    * Delete releases for employers
+    * Activate and Deactivate employers
+* Company (newer)
