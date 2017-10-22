@@ -3,7 +3,7 @@ Centralize all informations about System Management Times
 
 **Other attempts:**
 
-[Version 0.0 - C# ](https://github.com/fbrump/msh)
+[Version 0.0 - C# ](https://github.com/fbrump/mhs)
 
 [Version 1.0 - Python/Django](https://github.com/fbrump/msh-python)
 
