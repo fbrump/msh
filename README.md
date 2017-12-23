@@ -15,8 +15,8 @@ Create one system with multiple services for management all times of the employe
 
 ### Projects Backend
 - ESB - Python/Dotnet Core (?)
-- [Domain - PointSheet - Dotnet core](https://github.com/fbrump/msh-domain-point-sheet)
-- [Domain - Catalog - Django Rest](https://github.com/fbrump/msh-domain-catalog)
+- [Domain - PointSheet](https://github.com/fbrump/msh-domain-point-sheet)
+- [Domain - Catalog](https://github.com/fbrump/msh-domain-catalog)
 - [Domain - Enterprise](https://github.com/fbrump/msh-domain-enterprise)
 - Domain - Auth - Python/Dotnet Core (?)
 - Unittest: Unit (donet core), unittest/pytests (python)
